@@ -13,6 +13,7 @@ $(function () {
             $(skillbars[cont]).find('.skill-bar-percent').animate({
                 opacity: 1
             });
+
             cont++;
             if (cont > skillbars.length) {
                 clearInterval(showSkills);
